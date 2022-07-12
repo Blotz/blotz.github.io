@@ -126,7 +126,8 @@ Hardware.Mon.#1..: N/A
 ...
 ```
 
-Sadly this basic dictionary attack failed. This tells me that as long as you have a complicated enough password
+Sadly this basic dictionary attack has failed. We ran though every word in the wordlsit and not a single word matched our password hash.
+This suggests that a complicated password would be more secure than a simple password such as once which is on this relatively short wordlist.
 
 ### hashcracking attempt 2
 
