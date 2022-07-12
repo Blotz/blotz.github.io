@@ -1,0 +1,53 @@
+baseURL = 'https://www.blotz.dev/'
+languageCode = 'en-us'
+title = 'Ferdinand Theil'
+theme = "cactus"
+copyright = "Ferdinand Theil"
+enableEmoji = true
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+[params]
+  colortheme = "white" # dark, light, white, or classic
+  rss = true # generate rss feed. default value is false
+
+  # Home page settings
+  description = "Ferdinand Theil's personal blog"
+  mainSection = "posts" # your main section
+  showProjectsList = true # show projects list by default (if projects data file exists).
+  projectsUrl = "https://github.com/blotz" # title link for projects list
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat = "2006-01-02" # default
+
+  # Post page settings
+  show_updated = true # default
+  showReadTime = true # default
+
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/blotz"
+  # [[params.social]]
+  #   name = "linkedin"
+  #   link = "https://www.linkedin.com/company/github/"
+  [[params.social]]
+    name = "email"
+    link = "f.p.theil@gmail.com"  # no need for "mailto:" in the head
