@@ -2,8 +2,11 @@ baseURL = 'https://www.blotz.dev/'
 languageCode = 'en-us'
 title = 'Ferdinand Theil'
 theme = "cactus"
-copyright = "Ferdinand Theil"
+copyright = "This work is licensed under a MIT International License.'"
 enableEmoji = true
+
+[author]
+name = "Ferdinand Theil"
 
 [[menu.main]]
 name = "Home"
