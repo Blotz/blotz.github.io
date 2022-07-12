@@ -1,5 +1,5 @@
 ---
-title: "2022 07 12 Wifi Hacking"
+title: "Wifi Hacking"
 date: 2022-07-12T16:30:43+01:00
 tags:
     - Hacking
