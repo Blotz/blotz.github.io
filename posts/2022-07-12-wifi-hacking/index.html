@@ -76,7 +76,8 @@ Unfortunatly, I immediately came across an error.</p><div class=highlight><pre t
 </span></span><span style=display:flex><span>Hardware.Mon.#1..: N/A
 </span></span><span style=display:flex><span>
 </span></span><span style=display:flex><span>...
-</span></span></code></pre></div><p>Sadly this basic dictionary attack failed. This tells me that as long as you have a complicated enough password</p><h3 id=hashcracking-attempt-2>hashcracking attempt 2</h3><p>After the unsuccessful dictionary attack, i decided to get a bigger and better wordlist.
+</span></span></code></pre></div><p>Sadly this basic dictionary attack has failed. We ran though every word in the wordlsit and not a single word matched our password hash.
+This suggests that a complicated password would be more secure than a simple password such as once which is on this relatively short wordlist.</p><h3 id=hashcracking-attempt-2>hashcracking attempt 2</h3><p>After the unsuccessful dictionary attack, i decided to get a bigger and better wordlist.
 I went with the <a href="magnet:?xt=urn:btih:JEQMEEFTBXT35RJ3GUTGXU7HP3HBU5P6&dn=rockyou2021.txt%20dictionary%20from%20kys234%20on%20RaidForums&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce">rockyou2021.txt from kys234 on RaidForums</a>.
 This is a massive overkill wordlist and after waiting hours for the download+decompressing.</p><p>Once finished, the wordlist was around 92GB and roughly 8 billion words long.</p><p>Rather than wait for a hashcat to go though the entire wordlist, i grep-ed the wordlist for my wifi password.
 After 3 mins, the command resulted in nothing. This seams to show that my wifi password is secure.</p><h2 id=conclusion>Conclusion</h2><p>It seams to me that WPA-2 isnt actually as insecure as it would people online would lead you to believe.
