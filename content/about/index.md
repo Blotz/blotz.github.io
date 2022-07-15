@@ -3,9 +3,7 @@ title: About me
 ---
 ## 𝐇𝐞𝐥𝐥𝐨, <𝚌𝚘𝚍𝚎𝚛𝚜/>
 
-### About Me
 
-- 😄 Pronouns: **they/them**
 - 🔭 I’m currently working with: **discord-py, mysql and pytest!**
 - 🌱 I’m currently learning: **rust and c**
 - ⚡ Proficient in: **python and java**
