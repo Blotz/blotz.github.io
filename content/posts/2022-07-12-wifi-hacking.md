@@ -146,4 +146,5 @@ After 3 mins, the command resulted in nothing. This seams to show that my wifi p
 It seams to me that WPA-2 isnt actually as insecure as it would people online would lead you to believe.
 As long as you have a secure enough password, it shouldnt be a simple processs hacking into someones WPA-2 wifi network.
 
-Of course, ive only explored one wifi hacking method so far and im aware there are plenty of other methods
+Of course, ive only explored one wifi hacking method so far and im aware there are plenty of other methods. 
+:)
