@@ -15,4 +15,3 @@ draft: true
 Random numbers are very important in cryptography in Computer Science.
 
 
-# What
