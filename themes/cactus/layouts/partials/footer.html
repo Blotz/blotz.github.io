@@ -8,7 +8,11 @@
         {{ range .Site.Menus.main }} 
         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
+        <li>
+          <a href="/index.xml"><img src="/rss.svg" style="min-height:1.2em; vertical-align: middle;" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+        </li>
       </ul>
     </nav>
   </div>
+	
 </footer>
