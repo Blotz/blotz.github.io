@@ -54,7 +54,7 @@ Simmer for 10 mins.
 The Rhubarb should still be firm.
 If lots of juice has formed, drain away untill it is stew-like and not soupy.
 
-    This juice can be saved and mixed with vanilla ice cream for a lovely summer dish.
+> This juice can be saved and mixed with vanilla ice cream for a lovely summer dish.
 
 If you are using orange juice, check the packaging the sugar quantity and subtract that from the amount of caster sugar you are adding.
 This will help balance the sweetness of the dish.
