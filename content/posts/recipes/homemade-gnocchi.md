@@ -16,7 +16,7 @@ draft: false
 A Lovely [gnocchi recipe](https://www.bbcgoodfood.com/recipes/villa-valentinas-potato-gnocchi) by [valentina harris](https://www.bbcgoodfood.com/author/valentinaharris).
 Works great for batch cooking gnocchi. I recommend creating the gnocchi on a day where you are free and freezing the extra dough as it is an intensive cook
 
-This should take roughly 1 hour 20 mins depending on your cooking ability and if you have he
+This should take roughly 1 hour 20 mins depending on your cooking ability and if you have help.
 
 ## Equipment
 
