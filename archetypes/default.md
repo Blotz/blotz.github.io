@@ -9,6 +9,5 @@ keywords:
     - foo
     - bar
     - baz
-comments: false
 draft: true
 ---
