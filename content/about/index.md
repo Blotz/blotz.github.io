@@ -1,12 +1,17 @@
 ---
 title: About me
 ---
-## 𝐇𝐞𝐥𝐥𝐨, <𝚌𝚘𝚍𝚎𝚛𝚜/>
+## Hello world!
 
+My name is Ferdinand Theil, and I'm an undergraduate CS student studing in Swansea.
 
-- 🔭 I’m currently working with: **discord-py, mysql and pytest!**
-- 🌱 I’m currently learning: **rust and c**
-- ⚡ Proficient in: **python and java**
-- 🫠 I’m looking for help with: **[WebDev](https://github.com/inert-bot/website) and [SQL](https://github.com/inert-bot/discord-bot/issues/22)**
-- 💬 Ask me about: **[here](https://github.com/Blotz/Blotz/issues/1)! I am happy to help.**
-- 📫 How to reach me: **on discord @ [bløtz#8602](https://discordapp.com/users/510539578827079680) or on gmail @ f.p.theil@gmail.com**
+Welcome to my website where I post about random CS topics that I find interesting alongside wonderful recipes that I enjoy making!
+
+Im currently looking for a part-time entry level software development job in python or java.
+
+Check out my socials:
+
+- [Github](https://github.com/Blotz)
+- [Linkedin](https://www.linkedin.com/in/ferdinand-theil-197550245/)
+
+And dont forget to take a look at [my CV](/about/Ferdinand-Theil-CV.pdf) aswell! :smile:
