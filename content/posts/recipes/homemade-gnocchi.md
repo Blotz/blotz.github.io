@@ -56,17 +56,15 @@ This should take roughly 1 hour 20 mins depending on your cooking ability and if
     thee dough should be soft and hold together. it shouldnt feel sticky and be easily shaped.
 
 4.
-    Divide the dough into 3 equal pieces. wrap two of them in clingfilm and put them away for storage. (fridge or freezer)
-
-5.
-    Roll the dough into a cylinders on a lightly floured surface, again working lightly and quickly.
+    Divide the dough into 3 equal pieces.
+    Then roll the dough into a cylinders on a lightly floured surface, again working lightly and quickly.
     As you roll you will also be gently stretching the dough. Keep the surface well floured as you don’t want the dough to stick.
 
-6.
+5.
     Chop the dough into a gnocchi lengthed chunks.
     Add an imprint using the back of a fork.
 
-7.
+6.
     Bring the gnocchi to a large pot of boiling salted water.
     Drop them in a few at a time and let them cook for 2 mins.
 
