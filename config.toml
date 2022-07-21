@@ -14,24 +14,30 @@ url = "/"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
-url = "/posts"
+name = "About"
+url = "/about"
 weight = 2
 
 [[menu.main]]
-name = "Tags"
-url = "/tags"
+name = "Blog"
+url = "/posts/blog"
 weight = 3
 
 [[menu.main]]
 name = "Recipes"
-url = "/recipes"
+url = "/posts/recipes"
 weight = 4
 
+
 [[menu.main]]
-name = "About"
-url = "/about"
-weight = 5
+name = "All posts"
+url = "/posts"
+weight = 6
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 7
 
 [params]
   colortheme = "white" # dark, light, white, or classic
