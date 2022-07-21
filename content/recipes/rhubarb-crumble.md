@@ -9,6 +9,7 @@ category:
 keywords:
     - recipies
     - rhubarb crumble
+comments: true
 draft: false
 ---
 This is my own amazing rhubarb crumble recipe.

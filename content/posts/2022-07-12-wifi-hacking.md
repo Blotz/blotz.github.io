@@ -9,6 +9,7 @@ keywords:
     - Hacking
     - Wifi
     - Security
+comments: true
 draft: false
 ---
 

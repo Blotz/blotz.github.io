@@ -9,6 +9,7 @@ category:
 keywords:
     - dinner
     - gnocchi
+comments: true
 draft: false
 ---
 
