@@ -13,5 +13,4 @@ comments: true
 draft: true
 ---
 Random numbers are very important in cryptography in Computer Science.
-
-
+They are used in encryption and securing of
