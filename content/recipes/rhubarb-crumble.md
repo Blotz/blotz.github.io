@@ -74,3 +74,12 @@ Fold your sugars and walnuts together into your butter crumb mix.
 
 Place the rhubarb in the baking dish. top it with your crumble and bake for 30-40 mins or until topping is golden brown.
 Serve with custard or ice cream.
+
+<script src="https://utteranc.es/client.js"
+        repo="Blotz/blotz.github.io"
+        issue-term="url"
+        label="blotz.dev"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
