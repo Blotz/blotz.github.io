@@ -130,12 +130,13 @@ for n in count():
         break
 ```
 
-This simple program could take years to finish.
+This simple program could take years to finish. I ran this program for 45 mins and only found a sequence of length 8 (74759033). Please leave in the comments if you find a longer sequence, I'm interested to see!
 
 The program takes exponentially longer to calcuelate sequences of pi.
 It clearly shows the exponential time increase for brute forcing longer and longer sequences of pi.
 
 It also shows how you can find sequences of numbers in pseudo random number generators
+
 
 ### Sending "Secret" messages
 
