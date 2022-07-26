@@ -15,7 +15,7 @@ draft: false
 Random numbers are a core part of cryptography.
 
 They are used in encryption due to the fact that it is much harder to guess a randomly generated password than it is to guess any other kind of password.
-This core concept has resulted in random number generater being an integeral part of cryptography.
+This core concept has resulted in random number generation/generators becoming an integeral part of cryptography.
 
 This would be fine if it weren't for the fact that computers suck at being random.
 Computers work with exactness and precision. They were designed to.
@@ -25,7 +25,7 @@ This is where the concept of suedo random numbers came from.
 ## Pseudorandom number generators PRNG
 
 [Pseudorandom number generators](https://en.wikipedia.org/wiki/Pseudorandom_number_generator) are complicated mathmatical algorithms for generating a sequence of numbers which approximate the properties of true random number generators.
-These PRNGs are designed to be quick in number generation and reproducible. This means for if the initial state (the seed) is identical, then
+These PRNGs are designed to be quick in number generation and reproducible. This means, if the initial state (the seed) is identical, then
 the number generated will be identical. 
 In addition, most PRNG are not reverseable. This means you cant calcuelate the starting state from the output of the generator.
 
@@ -69,10 +69,10 @@ print("The meaning of life is", the_meaning_of_life)
 
 Feel free to run this program on your own computer to work out the meaning of life! :smile:
 
-#### How to calcuelate the seed
+#### How to calculate the seed
 
-This simple program is quite easy to run. However, calcuelating the seed value was much harder.
-Because the python random number generator isnt reverable, we need to brute force the state.
+This simple program is quite easy to run. However, calculating the seed value was much harder.
+Because the python random number generator isnt reversable, we need to brute force the state.
 While this is simple to program, it takes exponentially longer to crack (based on the complexity of your output).
 
 For the above example, you can crack it using this small program:
@@ -98,8 +98,8 @@ This is a very slow process as the seed for 42 can be anywhere possible value.
 
 ### Cracking digits of pi
 
-The more specific the number you are looking for, the longer your program will take for calcuelating the seed.
-The following program is a program which tries to find the seed which results in the digits of pi.
+The more specific the number you are looking for, the longer your program will take for calculating the seed.
+The following program tries to find the seed which results in the digits of pi.
 
 ```python
 #!/usr/bin/env python3
@@ -132,7 +132,7 @@ for n in count():
 
 This simple program could take years to finish. I ran this program for 45 mins and only found a sequence of length 8 (74759033). Please leave in the comments if you find a longer sequence, I'm interested to see!
 
-The program takes exponentially longer to calcuelate sequences of pi.
+The program takes exponentially longer to calculating sequences of pi.
 It clearly shows the exponential time increase for brute forcing longer and longer sequences of pi.
 
 It also shows how you can find sequences of numbers in pseudo random number generators
@@ -169,7 +169,7 @@ for character in message_list:  # Looping though each character in the message
             break  # We break out of the loop once we find the seed
 ```
 
-The program calcuelates the seed for each character and prints it.
+The program calculates the seed for each character and prints it.
 
 Try and create a program for decrypting these programes!
 Here is a secret message for you to decrypt!
