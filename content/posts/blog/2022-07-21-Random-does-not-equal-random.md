@@ -120,7 +120,7 @@ for n in count():
         if num != digit:
             break
         
-        # If the number geneated is longer than our longest sequence, we print the value and save its length
+        # If the number generated is longer than our longest sequence, we print the value and save its length
         if index > length:
             length = index
             print(f"Seed: {n} Length: {length + 1}")
