@@ -2,7 +2,7 @@ baseURL = 'https://www.blotz.dev/'
 languageCode = 'en-us'
 title = 'Ferdinand Theil'
 theme = "cactus"
-copyright = "Ferdinand Theil.'"
+copyright = "MIT Ferdinand Theil."
 enableEmoji = true
 
 [author]
