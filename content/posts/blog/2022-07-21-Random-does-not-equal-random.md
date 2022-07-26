@@ -25,7 +25,7 @@ This is where the concept of suedo random numbers came from.
 ## Pseudorandom number generators PRNG
 
 [Pseudorandom number generators](https://en.wikipedia.org/wiki/Pseudorandom_number_generator) are complicated mathmatical algorithms for generating a sequence of numbers which approximate the properties of true random number generators.
-These PRNGs are designed to be quick in number generation and reproducibable. This means for if the initial state (the seed) is identical, then
+These PRNGs are designed to be quick in number generation and reproducible. This means for if the initial state (the seed) is identical, then
 the number generated will be identical. 
 In addition, most PRNG are not reverseable. This means you cant calcuelate the starting state from the output of the generator.
 
