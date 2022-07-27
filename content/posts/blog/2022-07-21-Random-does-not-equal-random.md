@@ -20,7 +20,7 @@ This core concept has resulted in random number generation/generators becoming a
 This would be fine if it weren't for the fact that computers suck at being random.
 Computers work with exactness and precision. They were designed to.
 You don't want a computer at a bank to guess how much money you own.
-This is where the concept of suedo random numbers came from.
+This is where the concept of psuedo random numbers came from.
 
 ## Pseudorandom number generators PRNG
 
