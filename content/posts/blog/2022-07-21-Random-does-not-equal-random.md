@@ -177,3 +177,6 @@ Here is a secret message for you to decrypt!
 `84 41 9 88 95 12 205 40 95 88 9 88 144 95 132 136 387 205 144 81 88 152 95 1 81 44 132 11 1 95 132 261 95 387 12 81 44 205 261 107 95 132 81 11 95 41 95 227 40 261 95 88 41 11 81 88 144 95 88 99 99 108`
 
 I wish you lots of luck cracking my secret message!
+
+Also, please leave feedback in the comments!
+I'm always looking to improve my writting!
