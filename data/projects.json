@@ -1,6 +1,11 @@
 {
     "list": [
         {
+            "name": "blotz.dev website",
+            "url": "https://github.com/Blotz/blotz.github.io",
+            "desc": "Website for blotz.dev built using hugo and cactus theme"
+        },
+        {
             "name": "inert-bot",
             "url": "https://github.com/inert-bot/discord-bot",
             "desc": "A discord.py bot written in python and tested using pytest"
