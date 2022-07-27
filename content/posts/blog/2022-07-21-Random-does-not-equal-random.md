@@ -15,19 +15,19 @@ draft: false
 Random numbers are a core part of cryptography.
 
 They are used in encryption due to the fact that it is much harder to guess a randomly generated password than it is to guess any other kind of password.
-This core concept has resulted in random number generation/generators becoming an integeral part of cryptography.
+This core concept has resulted in random number generation/generators becoming an integral part of cryptography.
 
 This would be fine if it weren't for the fact that computers suck at being random.
 Computers work with exactness and precision. They were designed to.
-You dont want a computer at a bank to guess how much money you own.
+You don't want a computer at a bank to guess how much money you own.
 This is where the concept of suedo random numbers came from.
 
 ## Pseudorandom number generators PRNG
 
-[Pseudorandom number generators](https://en.wikipedia.org/wiki/Pseudorandom_number_generator) are complicated mathmatical algorithms for generating a sequence of numbers which approximate the properties of true random number generators.
+[Pseudorandom number generators](https://en.wikipedia.org/wiki/Pseudorandom_number_generator) are complicated mathematical algorithms for generating a sequence of numbers which approximate the properties of true random number generators.
 These PRNGs are designed to be quick in number generation and reproducible. This means, if the initial state (the seed) is identical, then
 the number generated will be identical. 
-In addition, most PRNG are not reverseable. This means you cant calcuelate the starting state from the output of the generator.
+In addition, most PRNG are not reversible. This means you cant calculate the starting state from the output of the generator.
 
 This, of course, means that a pseudorandom number generator is far from similar to a true random number generator.
 Of course, it does mean we can have a little fun with PRNGs.
@@ -36,7 +36,7 @@ Of course, it does mean we can have a little fun with PRNGs.
 
 Some devices use a piece of hardware to [generate random numbers](https://en.wikipedia.org/wiki/Hardware_random_number_generator).
 This can happen though a range of sources such as, radio noise, thermal noise, and other quantum effects.
-They are considered to be true randomm number generators due to the fact that it is impossible to predict the noise on these systems.
+They are considered to be true random number generators due to the fact that it is impossible to predict the noise on these systems.
 
 Hardware Generators can only produce a limited number of random bits per second. They need to allow for enough time to pass such that the state of the system has changed enough. HRNG are usually used to seed PRNG which can generate numbers at a much faster rate.
 
@@ -52,7 +52,7 @@ This works off the concept of "a lava lamp will never take the same shape twice"
 ### The meaning of life
 
 In programming languages, you can set a "seed" for a random number generator.
-The seed is the inital starting state of the random number generator.
+The seed is the initial starting state of the random number generator.
 
 This means you can influence the numbers of a random number generator.
 For example:
@@ -72,7 +72,7 @@ Feel free to run this program on your own computer to work out the meaning of li
 #### How to calculate the seed
 
 This simple program is quite easy to run. However, calculating the seed value was much harder.
-Because the python random number generator isnt reversable, we need to brute force the state.
+Because the python random number generator isn't reversible, we need to brute force the state.
 While this is simple to program, it takes exponentially longer to crack (based on the complexity of your output).
 
 For the above example, you can crack it using this small program:
@@ -137,7 +137,6 @@ It clearly shows the exponential time increase for brute forcing longer and long
 
 It also shows how you can find sequences of numbers in pseudo random number generators
 
-
 ### Sending "Secret" messages
 
 One final fun program you can do with random numbers is you can send secret messages using it!
@@ -171,7 +170,7 @@ for character in message_list:  # Looping though each character in the message
 
 The program calculates the seed for each character and prints it.
 
-Try and create a program for decrypting these programes!
+Try and create a program for decrypting these programmes!
 Here is a secret message for you to decrypt!
 
 `84 41 9 88 95 12 205 40 95 88 9 88 144 95 132 136 387 205 144 81 88 152 95 1 81 44 132 11 1 95 132 261 95 387 12 81 44 205 261 107 95 132 81 11 95 41 95 227 40 261 95 88 41 11 81 88 144 95 88 99 99 108`
@@ -179,4 +178,4 @@ Here is a secret message for you to decrypt!
 I wish you lots of luck cracking my secret message!
 
 Also, please leave feedback in the comments!
-I'm always looking to improve my writting!
+I'm always looking to improve my writing!
