@@ -106,7 +106,7 @@ The following program tries to find the seed which results in the digits of pi.
 import random
 from itertools import count
 
-length: int = -1  # The longest strech of pi we have discovered
+length: int = -1  # The longest stretch of pi we have discovered
 pi = [3,1,4,1,5,9,2,6,5,3,5,8,9,7,9]  # pi up to 15 digits
 
 for n in count():
@@ -116,7 +116,7 @@ for n in count():
     for index, digit in enumerate(pi):
         num = random.randint(0, 9)
 
-        # If the number generated isnt a digit of pi, we exit this loop
+        # If the number generated isn't a digit of pi, we exit this loop
         if num != digit:
             break
         
