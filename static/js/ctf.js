@@ -57,3 +57,5 @@ function ctfVerify() {
     }
     document.ctfForm.flag.focus();
 }
+
+document.ctfForm.flag.focus();
