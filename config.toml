@@ -33,6 +33,11 @@ name = "Tags"
 url = "/tags"
 weight = 7
 
+[[menu.main]]
+name = "CTF"
+url = "/ctf"
+weight = 8
+
 [params]
   colortheme = "white" # dark, light, white, or classic
   rss = true # generate rss feed. default value is false
