@@ -1,7 +1,11 @@
 {
     "40bf529805e37f871eb18fe833ec6342b826e8c93e94df21a97bd293ae665e3d": {
         "name": "Hiding in plain sight",
-        "description": "This is the first challenge of ctf works!\nCongrates on finding it",
+        "description": "This is the first challenge of ctf!\nCongrates on finding it",
         "flag": "th1s_1s_the_fir5t_flag"
+    },
+    "9a7cde5e78370bbda2a9702a2bb915f141c8da974837e5d0381a25bc438baa28": {
+        "name": "All isn't what it seams",
+        "description": "This flag is hidden on every single page"
     }
 }
