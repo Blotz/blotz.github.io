@@ -20,7 +20,7 @@ This core concept has resulted in random number generation/generators becoming a
 This would be fine if it weren't for the fact that computers suck at being random.
 Computers work with exactness and precision. They were designed to.
 You don't want a computer at a bank to guess how much money you own.
-This is where the concept of psuedo random numbers came from.
+This is where the concept of pseudo random numbers came from.
 
 ## Pseudorandom number generators PRNG
 
@@ -142,7 +142,7 @@ It also shows how you can find sequences of numbers in pseudo random number gene
 One final fun program you can do with random numbers is you can send secret messages using it!
 You can convert characters in a message into a series of seeds which you can send to your friends.
 
-These messages would appear as random numbers to all who dont know how to read them!
+These messages would appear as random numbers to all who don't know how to read them!
 Decrypting the message would be as simple as setting the seed and generating the numbers. Then converting to a character.
 
 Here is a small program for generating these secret messages
@@ -174,6 +174,10 @@ Try and create a program for decrypting these programmes!
 Here is a secret message for you to decrypt!
 
 `84 41 9 88 95 12 205 40 95 88 9 88 144 95 132 136 387 205 144 81 88 152 95 1 81 44 132 11 1 95 132 261 95 387 12 81 44 205 261 107 95 132 81 11 95 41 95 227 40 261 95 88 41 11 81 88 144 95 88 99 99 108`
+
+{{< rawhtml >}}
+<!-- 44 97 152 152 88 261 135 132 261 11 132 152 26 135 110 78 136 136 26 261 81 11 135 205 227 135 90 135 0 130 78 99 -->
+{{< /rawhtml >}}
 
 I wish you lots of luck cracking my secret message!
 
