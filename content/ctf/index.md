@@ -18,3 +18,5 @@ These flags are hidden around the website in the files.
 Sometimes they are obscured to make it harder to find.
 
 ##### This is meant to be a fun challenge. please refrain from checking git logs
+
+###### The "first" hash is on this page. (you can find them in any order tho)
