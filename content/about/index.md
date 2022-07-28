@@ -3,7 +3,7 @@ title: About me
 ---
 ## Hello world!
 
-My name is Ferdinand Theil, and I'm an undergraduate CS student studing in Swansea.
+My name is Ferdinand Theil, and I'm an undergraduate CS student studying in Swansea.
 
 Welcome to my website where I post about random CS topics that I find interesting alongside wonderful recipes that I enjoy making!
 
@@ -14,4 +14,4 @@ Check out my socials:
 - [Github](https://github.com/Blotz)
 - [Linkedin](https://www.linkedin.com/in/ferdinand-theil-197550245/)
 
-And dont forget to take a look at [my CV](/about/Ferdinand-Theil-CV.pdf) aswell! :smile:
+And don't forget to take a look at [my CV](/about/Ferdinand-Theil-CV.pdf) as well! :smile:
