@@ -1,0 +1,9 @@
+<!-- CTF submit form -->
+{{.Inner}}
+<form name="ctfForm" action="javascript:ctfVerify()">
+    Flag: <input type=text id="flag" name="flag"><br>
+    <input type="button" onclick="ctfVerify()" value="Submit">
+</form>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+<script type="text/javascript" src="/js/ctf.js"></script>
