@@ -1,6 +1,7 @@
 {
-    "75307a748ab27592494fc2fd3a18594d9ad6006d3c99d5dcc16f97ba9c4e7ea1": {
-        "name": "testing-ctf-flag",
-        "description": "This is a test challenge to verify the ctf works!"
+    "40bf529805e37f871eb18fe833ec6342b826e8c93e94df21a97bd293ae665e3d": {
+        "name": "Hiding in plain sight",
+        "description": "This is the first challenge of ctf works!\nCongrates on finding it",
+        "flag": "th1s_1s_the_fir5t_flag"
     }
 }
