@@ -1,5 +1,6 @@
 ---
 title: CTF submission
+comments: true
 ---
 
 All around my website, there are hidden secrets!
