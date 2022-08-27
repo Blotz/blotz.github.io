@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hacking on Ferdinand Theil</title><link>https://www.blotz.dev/tags/hacking/</link><description>Recent content in Hacking on Ferdinand Theil</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>[MIT Ferdinand Theil.](/LICENSE)</copyright><lastBuildDate>Tue, 12 Jul 2022 16:30:43 +0100</lastBuildDate><atom:link href="https://www.blotz.dev/tags/hacking/index.xml" rel="self" type="application/rss+xml"/><item><title>Wifi Hacking</title><link>https://www.blotz.dev/posts/blog/2022-07-12-wifi-hacking/</link><pubDate>Tue, 12 Jul 2022 16:30:43 +0100</pubDate><guid>https://www.blotz.dev/posts/blog/2022-07-12-wifi-hacking/</guid><description>Everywhere online, i have heard that wifi was insecure.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacking on Ferdinand Theil</title>
+    <link>https://www.blotz.dev/tags/hacking/</link>
+    <description>Recent content in Hacking on Ferdinand Theil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>[MIT Ferdinand Theil.](/LICENSE)</copyright>
+    <lastBuildDate>Tue, 12 Jul 2022 16:30:43 +0100</lastBuildDate><atom:link href="https://www.blotz.dev/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wifi Hacking</title>
+      <link>https://www.blotz.dev/posts/blog/2022-07-12-wifi-hacking/</link>
+      <pubDate>Tue, 12 Jul 2022 16:30:43 +0100</pubDate>
+      
+      <guid>https://www.blotz.dev/posts/blog/2022-07-12-wifi-hacking/</guid>
+      <description>Everywhere online, i have heard that wifi was insecure.
 Posts talking about WEP and WPA being insecure. WPA-2 being better but still flawed. I have decided to try and hack my own wifi router to see whether it really is insecure
 Setup I am using the tp-link archer VR600 v2 as my router with WPA-2 wifi encryption. I&amp;rsquo;ll be executing my attack from my Arch Linux Laptop
-Hacking my own wifi After looking around online, I&amp;rsquo;ve discovered the hashcat cracking wpawpa2 wiki article and I&amp;rsquo;ll be following along as a guide.</description></item></channel></rss>
+Hacking my own wifi After looking around online, I&amp;rsquo;ve discovered the hashcat cracking wpawpa2 wiki article and I&amp;rsquo;ll be following along as a guide.</description>
+    </item>
+    
+  </channel>
+</rss>

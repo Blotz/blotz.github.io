@@ -1,7 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ferdinand Theil</title><link>https://www.blotz.dev/posts/blog/</link><description>Recent content on Ferdinand Theil</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>[MIT Ferdinand Theil.](/LICENSE)</copyright><lastBuildDate>Wed, 27 Jul 2022 14:35:20 +0100</lastBuildDate><atom:link href="https://www.blotz.dev/posts/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>WannaCry</title><link>https://www.blotz.dev/posts/blog/2022-07-27-wannacry/</link><pubDate>Wed, 27 Jul 2022 14:35:20 +0100</pubDate><guid>https://www.blotz.dev/posts/blog/2022-07-27-wannacry/</guid><description>WannaCry is the largest ransomware attack. The attack started at 07:44 UTC on 12 May 2017 and was halted a few hours later at 15:03 UTC. In that time, it had spread to over 230,000 computers in 150 different countries. Companies/Agencies such as the NHS and Nissan Motor Manufacturing UK where massively crippled in this attack as they had tens of thousands of devices infected.
-The widespread chaos caused by WannaCry was only possible due to a computer exploit, known as Eternal Blue, which had leaked onto the clear web a month ago.</description></item><item><title>Random Does Not Equal Random</title><link>https://www.blotz.dev/posts/blog/2022-07-21-random-does-not-equal-random/</link><pubDate>Thu, 21 Jul 2022 18:42:22 +0100</pubDate><guid>https://www.blotz.dev/posts/blog/2022-07-21-random-does-not-equal-random/</guid><description>Random numbers are a core part of cryptography.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ferdinand Theil</title>
+    <link>https://www.blotz.dev/posts/blog/</link>
+    <description>Recent content on Ferdinand Theil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>[MIT Ferdinand Theil.](/LICENSE)</copyright>
+    <lastBuildDate>Wed, 27 Jul 2022 14:35:20 +0100</lastBuildDate><atom:link href="https://www.blotz.dev/posts/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WannaCry</title>
+      <link>https://www.blotz.dev/posts/blog/2022-07-27-wannacry/</link>
+      <pubDate>Wed, 27 Jul 2022 14:35:20 +0100</pubDate>
+      
+      <guid>https://www.blotz.dev/posts/blog/2022-07-27-wannacry/</guid>
+      <description>WannaCry is the largest ransomware attack. The attack started at 07:44 UTC on 12 May 2017 and was halted a few hours later at 15:03 UTC. In that time, it had spread to over 230,000 computers in 150 different countries. Companies/Agencies such as the NHS and Nissan Motor Manufacturing UK where massively crippled in this attack as they had tens of thousands of devices infected.
+The widespread chaos caused by WannaCry was only possible due to a computer exploit, known as Eternal Blue, which had leaked onto the clear web a month ago.</description>
+    </item>
+    
+    <item>
+      <title>Random Does Not Equal Random</title>
+      <link>https://www.blotz.dev/posts/blog/2022-07-21-random-does-not-equal-random/</link>
+      <pubDate>Thu, 21 Jul 2022 18:42:22 +0100</pubDate>
+      
+      <guid>https://www.blotz.dev/posts/blog/2022-07-21-random-does-not-equal-random/</guid>
+      <description>Random numbers are a core part of cryptography.
 They are used in encryption due to the fact that it is much harder to guess a randomly generated password than it is to guess any other kind of password. This core concept has resulted in random number generation/generators becoming an integral part of cryptography.
-This would be fine if it weren&amp;rsquo;t for the fact that computers suck at being random. Computers work with exactness and precision.</description></item><item><title>Wifi Hacking</title><link>https://www.blotz.dev/posts/blog/2022-07-12-wifi-hacking/</link><pubDate>Tue, 12 Jul 2022 16:30:43 +0100</pubDate><guid>https://www.blotz.dev/posts/blog/2022-07-12-wifi-hacking/</guid><description>Everywhere online, i have heard that wifi was insecure.
+This would be fine if it weren&amp;rsquo;t for the fact that computers suck at being random. Computers work with exactness and precision.</description>
+    </item>
+    
+    <item>
+      <title>Wifi Hacking</title>
+      <link>https://www.blotz.dev/posts/blog/2022-07-12-wifi-hacking/</link>
+      <pubDate>Tue, 12 Jul 2022 16:30:43 +0100</pubDate>
+      
+      <guid>https://www.blotz.dev/posts/blog/2022-07-12-wifi-hacking/</guid>
+      <description>Everywhere online, i have heard that wifi was insecure.
 Posts talking about WEP and WPA being insecure. WPA-2 being better but still flawed. I have decided to try and hack my own wifi router to see whether it really is insecure
 Setup I am using the tp-link archer VR600 v2 as my router with WPA-2 wifi encryption. I&amp;rsquo;ll be executing my attack from my Arch Linux Laptop
-Hacking my own wifi After looking around online, I&amp;rsquo;ve discovered the hashcat cracking wpawpa2 wiki article and I&amp;rsquo;ll be following along as a guide.</description></item></channel></rss>
+Hacking my own wifi After looking around online, I&amp;rsquo;ve discovered the hashcat cracking wpawpa2 wiki article and I&amp;rsquo;ll be following along as a guide.</description>
+    </item>
+    
+  </channel>
+</rss>
