@@ -4,6 +4,8 @@ title = 'Ferdinand Theil'
 theme = "cactus"
 copyright = "[MIT Ferdinand Theil.](/LICENSE)"
 enableEmoji = true
+enableRobotsTXT = false  # I have my own custom robots.txt
+
 
 [author]
 name = "Ferdinand Theil"
