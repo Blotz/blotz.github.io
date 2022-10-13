@@ -20,7 +20,6 @@
 
 
 User-agent: *
-Disallow: /*__*
 
 Sitemap: https://www.blotz.dev/sitemap.xml
 
