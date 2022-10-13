@@ -2,19 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.blotz.dev/posts/blog/</loc>
-    <lastmod>2022-07-27T14:35:20+01:00</lastmod>
+    <loc>https://www.blotz.dev/posts/recipes/</loc>
+    <lastmod>2022-10-13T11:37:36+01:00</lastmod>
   </url><url>
     <loc>https://www.blotz.dev/</loc>
+    <lastmod>2022-10-13T11:37:36+01:00</lastmod>
+  </url><url>
+    <loc>https://www.blotz.dev/posts/</loc>
+    <lastmod>2022-10-13T11:37:36+01:00</lastmod>
+  </url><url>
+    <loc>https://www.blotz.dev/posts/recipes/sourdough-bread/</loc>
+    <lastmod>2022-10-13T11:37:36+01:00</lastmod>
+  </url><url>
+    <loc>https://www.blotz.dev/posts/blog/</loc>
     <lastmod>2022-07-27T14:35:20+01:00</lastmod>
   </url><url>
     <loc>https://www.blotz.dev/tags/history/</loc>
     <lastmod>2022-07-27T14:35:20+01:00</lastmod>
   </url><url>
     <loc>https://www.blotz.dev/tags/malware/</loc>
-    <lastmod>2022-07-27T14:35:20+01:00</lastmod>
-  </url><url>
-    <loc>https://www.blotz.dev/posts/</loc>
     <lastmod>2022-07-27T14:35:20+01:00</lastmod>
   </url><url>
     <loc>https://www.blotz.dev/tags/</loc>
@@ -28,9 +34,6 @@
   </url><url>
     <loc>https://www.blotz.dev/tags/software/</loc>
     <lastmod>2022-07-21T18:42:22+01:00</lastmod>
-  </url><url>
-    <loc>https://www.blotz.dev/posts/recipes/</loc>
-    <lastmod>2022-07-18T18:45:38+01:00</lastmod>
   </url><url>
     <loc>https://www.blotz.dev/tags/desert/</loc>
     <lastmod>2022-07-18T18:45:38+01:00</lastmod>
