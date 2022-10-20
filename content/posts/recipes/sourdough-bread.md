@@ -1,6 +1,6 @@
 ---
 title: "Sourdough Bread"
-date: 2022-10-13T11:37:36+01:00
+date: 2022-10-20T20:08:35+01:00
 category:
     - cooking
     - baking
@@ -69,7 +69,7 @@ While I was learning how to make sourdough, I would play around with these amoun
 For a basic sourdough loaf:
 
 - 400g Bread Flour (100%)
-- 250 Water (62.5%)
+- 280g Water (70%)
 - 100g Sourdough Starter (25%)
 - 8g Salt (2%)
 - All-Purpose or Bread flour for dusting
@@ -98,7 +98,7 @@ A simple calculator for calculating ingredient amounts for sizes of bread.
 
 <script>
     const FLOUR_PERCENTAGE=1
-    const WATER_PERCENTAGE=0.625
+    const WATER_PERCENTAGE=0.70
     const STARTER_PERCENTAGE=0.25
     const SALT_PERCENTAGE=0.02
 
@@ -155,38 +155,55 @@ A simple calculator for calculating ingredient amounts for sizes of bread.
 
 ## Instructions
 
-1.
-    In a large mixing bowl, add Strong White Flour, Water, Sourdough Starter, and Salt.
+This recipe is a slow recipe which will take at around three days to finish.
+
+1. Sourdough Starter Prep.
+
+    Take your sourdough starter out the fridge and place all of your discard in a air tight container.
+    Add to the same container equal parts flour and water in proportion to the recipe.
+    This allows you to prepare larger quantities of bread if you decide to batch cook several loafs at once.
+2. Mix and First Proof.
+
+    The next day, in a large mixing bowl, add Strong White Flour, Water, Sourdough Starter, and Salt.
     Blend these ingredients together in the large mixing bowl using your hands or a wooden spoon.
 
-    Cover the bowl with a tea towel or tin foil and place in a warm place for the first proof.
-    After 4 hours, with wet hands, Stretch and fold the dough onto itself 4-8 times.
-    Leave the bread to develop for another 2 hours.
+    Cover the bowl with a tea towel or tin foil and place in a warm place for 8-10 hours.
+    This is the first proof.
 
     This process will help develop the Gluten in your loaf.
     Sourdough is considered a no knead bread as it doesn't require any intensive kneading.
-2.
-    Generously dust your *banneton with rice flour.
+3. Stretch and fold during Proof.
+
+    After leaving the dough to rest/proof for 30 mins, you want to stretch and fold the dough onto itself with wet hands.
+    Repeat this action several times while rotating the bowl to fully stretch and fold.
+    Then repeat this every 1-2 hours till the dough is smooth and workable.
+
+    The action of stretching and folding helps develop gluten in the bread which results in a lighter, fluffier loaf.
+
+4. Forming the dough and Second Proof.
 
     Scrape your bread dough onto a lightly floured surface. Shape the dough into a smooth ball with an unbroken surface.
     I do this by pushing dough, from the sides, down and into the bottom of the ball.
     Then pinching it together until the dough is smooth.
 
+    Generously dust your loaf with rice flour.
     Place the bread, smooth side down, into the banneton*.
     Then cover the banneton* with a tea towel or tin foil and place inside of the fridge for 12 to 18 hours to retard
 
     retard is the process of slowing down the final proof which allows it's flavour to develop and gives us more time to bake.
 
     (*You can use a similarly sized bowl + a tightly woven tea-towel as a substitution or simply wrap the bread in a clean tightly woven tea-towel)
-3.
-    Remove the dough from the fridge and leave it to rise in a warm place for 3-5 hours.
-    You will know when its ready when you poke the dough with your finger and it retains a slight indent.
-4.
+
+5. Bake!
+
     Preheat the oven to 230C(450F) fan and line a baking sheet with parchment paper.
 
     Gently invert your banneton over your baking sheet and transfer the dough to the tray.
     Brush off excess rice flour and score the top of your dough with your bread lame or sharp knife.
 
-    Mist the surface of your bread and place in your preheated oven for 25-30 minutes.
-5.
+    Thoroughly Spritz your bread/oven with water as you place it inside the oven.
+    This is to create a humid environment for the bread to bake which promotes caramelization in the crust.
+
+6. Leave To cool
+
     Take loaf out and leave to cool. (Do not slice loaf while still warm)
