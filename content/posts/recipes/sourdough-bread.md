@@ -19,16 +19,17 @@ Only then will you achieve a beautiful home-y loaf of bread.
 
 Either store your Sourdough Starter on the counter or in your fridge.
 
-If you store your sourdough in your fridge, it will be required to be feed once a week rather than every day.
+If you store your sourdough in your fridge, you need to feed it once a week.
 If you forget to feed your sourdough for a while, don't panic.
 Low temperatures in the fridge will cause your Starter to hibernate.
-Simply scrape out some good sourdough and transfer to a bowel.
+Simply scrape out some good sourdough and transfer to a bowl.
 Then clean out your Starter Jar and return the Starter.
 Then feed like usual. It should return to its bubbly self in at least 2 feeds
 
 ### Feeding
 
 First you need to discard up to 90% of your Starter.
+This is known as your "discard".
 This is because Sourdough Starter grows much faster than we can bake it.
 
 Then you need to mix in around 30g of flour and 30g of water in a 1 to 1 ratio.
@@ -45,7 +46,7 @@ Sourdough doesn't require fancy equipment and you can always try and make do wit
 
 - Mixing bowl
 - Oven Tray
-- A tightly woven tea towel*
+- A tightly woven tea towel
 - Kitchen Scissors or Sharp knife
 - Spray bottle of water for misting
 
@@ -159,8 +160,8 @@ This recipe is a slow recipe which will take at around three days to finish.
 
 1. Sourdough Starter Prep.
 
-    Take your sourdough starter out the fridge and place all of your discard in a air tight container.
-    Add to the same container equal parts flour and water in proportion to the recipe.
+    Feed your sourdough like normal however hold onto your discarded sourdough.
+    Put your sourdough discard in an airtight container with equal parts flour and water in proportion to the recipe.
     This allows you to prepare larger quantities of bread if you decide to batch cook several loafs at once.
 2. Mix and First Proof.
 
@@ -188,7 +189,7 @@ This recipe is a slow recipe which will take at around three days to finish.
 
     Generously dust your loaf with rice flour.
     Place the bread, smooth side down, into the banneton*.
-    Then cover the banneton* with a tea towel or tin foil and place inside of the fridge for 12 to 18 hours to retard
+    Then cover the banneton* with a tea towel or tin foil and place inside of the fridge for 12 to 18 hours to retard.
 
     retard is the process of slowing down the final proof which allows it's flavour to develop and gives us more time to bake.
 
