@@ -1,8 +1,8 @@
 {
     "list": [
         {
-            "name": "Java Raytracer"
-            "url": "https://github.com/Blotz/raytracing"
+            "name": "Java Raytracer",
+            "url": "https://github.com/Blotz/raytracing",
             "desc": "A Recursive raytracer written using java + javafx frontend"
         },
         {
