@@ -1,0 +1,391 @@
+<h1>Recipe Search</h1>
+<div id="filters">
+    <label for="recipe-search">Search by name:</label>
+    <input type="text" id="recipe-search" onkeyup="liveSearch(event)" placeholder="Search recipes..">
+    <br>
+    <label for="category">Category:</label>
+    <select id="category" onchange="search()">
+        <option value="">All</option>
+        <option value="veggie">Veggie</option>
+        <option value="pork">Pork</option>
+        <option value="poultry">Poultry</option>
+        <option value="seafood">Seafood</option>
+        <option value="beef">Beef</option>
+        <option value="lamb">Lamb</option>
+    </select>
+    <br>
+    <label for="ingredients">Include Ingredients:</label>
+    <input type="text" id="ingredients" list="ingredient-options" onchange="addIngredient()">
+    <datalist id="ingredient-options"></datalist>
+    <div id="included-ingredients"></div>
+    <label for="allergies">Exclude Allergens:</label>
+    <input type="text" id="allergies" list="allergy-options" onchange="addAllergen()">
+    <datalist id="allergy-options"></datalist>
+    <div id="excluded-allergies"></div>
+</div>
+<p id="recipe-count">Loading</p>
+
+<div class="recipes-grid"></div>
+
+<input type="button" value="Load More" onclick="display()">
+
+
+<!-- css -->
+<style type="text/css">
+    .recipe-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 600px;
+        border: 1px solid #ccc;
+        margin: 0 auto;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .recipe-card .title {
+        padding: 1rem;
+        background-color: #f5f5f5;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    .recipe-card .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .recipe-card .image-container {
+        position: relative;
+        width: 50%;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+    .recipe-card .image {
+        width: 100%;
+        height: auto;
+        transition: all 0.3s;
+    }
+    .recipe-card .image-gradient {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.5));
+    }
+
+    .recipe-card .details {
+        flex: 1;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .recipe-card .headline {
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+    }
+
+    .recipe-card .description {
+        font-size: 0.65rem;
+        margin-bottom: 1rem;
+        white-space: normal;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 230px;        
+      }
+
+    .recipe-card .description-hidden {
+        white-space: normal;
+        overflow: auto;
+        text-overflow: clip;
+      }
+
+    .recipe-card .metadata {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+
+    .recipes-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-gap: 1rem;
+        padding: 1rem;
+      }
+
+    .chip {
+        display: inline-block;
+        padding: 4px 8px;
+        margin: 2px;
+        background-color: #f1f1f1;
+        border-radius: 16px;
+        font-size: 14px;
+        cursor: pointer;
+        position: relative;
+        transition: background-color 0.2s;
+    }
+
+    .chip:hover {
+        background-color: #e1e1e1;
+    }
+
+    .chip::before {
+        content: "×";
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 2px 6px;
+        font-size: 10px;
+        opacity: 0;
+        background-color: #e1e1e17e;
+        border-radius: 0 8px 8px 0;
+        transition: opacity 0.2s;
+    }
+
+    .chip:hover::before {
+        opacity: 1;
+    }
+</style>
+
+
+<!-- js -->
+<script  type="text/javascript">
+    // load json file with recipes
+    function readTextFile(file, callback) {
+        var rawFile = new XMLHttpRequest();
+        rawFile.overrideMimeType("application/json");
+        rawFile.open("GET", file, true);
+        rawFile.onreadystatechange = function() {
+            if (rawFile.readyState === 4 && rawFile.status == "200") {
+                callback(rawFile.responseText);
+            }
+        }
+        rawFile.send(null);
+    }
+
+    function toggleDescription(id) {
+        const descriptionElement = document.getElementById(id);
+        descriptionElement.classList.toggle('description-hidden');
+      }
+  
+    // global data variable
+    var data;
+    // update on page load
+    window.onload = function () {
+        // alert("loaded");
+        // load data
+        readTextFile("/recipe/data.json", function(text){
+            data = JSON.parse(text);
+            // console.log(data);
+            updateRecipeCount(data["recipes"].length);
+            updateIngredientOptions(data);
+            updateAllergenOptions(data);
+            search();
+        });
+    }
+
+    // update recipe count
+    function updateRecipeCount(recipeCount) {
+        // update recipe count id="recipe-count"
+        document.getElementById("recipe-count").innerHTML = "recipes: " + recipeCount;
+    }
+    // update ingredient options
+    function updateIngredientOptions(data) {
+        // console.log(data);
+        var ingredients = data["ingredients"];
+        // console.log(ingredients);
+
+        // update ingredient options
+        var ingredientOptions = document.getElementById("ingredient-options");
+        for (var i = 0; i < ingredients.length; i++) {
+            var ingredient = ingredients[i];
+            var option = document.createElement("option");
+            option.setAttribute("value", ingredient);
+            option.innerHTML = ingredient;
+            ingredientOptions.appendChild(option);
+        }
+        
+
+    }
+    // update allergen options
+    function updateAllergenOptions(data) {
+        // console.log(data);
+        // get all allergens and ingredients
+        var allergens = data["allergies"];
+        allergens = allergens.concat(data["ingredients"]);
+
+        // console.log(allergens);
+        // add allergens to list
+        var allergenOptions = document.getElementById("allergy-options");
+        for (var i = 0; i < allergens.length; i++) {
+            var allergen = allergens[i];
+            var option = document.createElement("option");
+            option.setAttribute("value", allergen);
+            option.innerHTML = allergen;
+            allergenOptions.appendChild(option);
+        }
+        
+
+    }
+    // create recipe cards
+    function createRecipeCard(recipe, i) {
+        // create recipe card
+        var recipeCard = document.createElement("a");
+        recipeCard.setAttribute("href", recipe["link"]);
+        recipeCard.setAttribute("class", "recipe-card");
+
+        // create title
+        var title = document.createElement("div");
+        title.setAttribute("class", "title");
+        title.innerHTML = recipe["name"];
+        recipeCard.appendChild(title);
+
+        // create content
+        var content = document.createElement("div");
+        content.setAttribute("class", "content");
+        recipeCard.appendChild(content);
+
+        // create image
+        var imageWrapper = document.createElement("div");
+        imageWrapper.setAttribute("class", "image-container");
+        content.appendChild(imageWrapper);
+
+        var image = document.createElement("img");
+        image.setAttribute("class", "image");
+        image.setAttribute("src", recipe["imageLink"]);
+        image.setAttribute("alt", recipe["name"]);
+        imageWrapper.appendChild(image);
+
+        // var imageGradient = document.createElement("div");
+        // imageGradient.setAttribute("class", "image-gradient");
+        // imageWrapper.appendChild(imageGradient);
+
+
+        // create details
+        var details = document.createElement("div");
+        details.setAttribute("class", "details");
+        content.appendChild(details);
+
+        // create headline
+        var headline = document.createElement("div");
+        headline.setAttribute("class", "headline");
+        headline.innerHTML = recipe["headline"];
+        details.appendChild(headline);
+
+        // create description
+        var description = document.createElement("div");
+        description.setAttribute("class", "description");
+        description.setAttribute("id", "description-" + i);
+        description.setAttribute("onmouseover", "toggleDescription('description-" + i + "')");
+        description.setAttribute("onmouseout", "toggleDescription('description-" + i + "')");
+        description.innerHTML = recipe["description"];
+        details.appendChild(description);
+
+        // create metadata
+        var metadata = document.createElement("div");
+        metadata.setAttribute("class", "metadata");
+        details.appendChild(metadata);
+
+        // create difficulty
+        var difficulty = document.createElement("span");
+        difficulty.innerHTML = "Difficulty: " + recipe["difficulty"] + "/5";
+        metadata.appendChild(difficulty);
+
+        // create time
+        var time = document.createElement("span");
+        time.innerHTML = "Time: " + recipe["time"] + " min";
+        metadata.appendChild(time);
+
+        return recipeCard;
+    }
+    // create chip
+    function createChip(text) {
+        const chip = document.createElement("span");
+        chip.innerText = text;
+        chip.classList.add("chip");
+        chip.addEventListener("click", function() {
+            chip.remove();
+            search();
+        });
+        chip.setAttribute("class", "chip");
+        return chip;
+    }
+    // add ingredient
+    function addIngredient() {
+        const input = document.getElementById("ingredients");
+        const includedIngredients = document.getElementById("included-ingredients");
+        includedIngredients.appendChild(createChip(input.value));
+        input.value = "";
+        // updateRecipes();
+        search();
+    }
+    // add allergen
+    function addAllergen() {
+        const input = document.getElementById("allergies");
+        const includedAllergies = document.getElementById("excluded-allergies");
+        includedAllergies.appendChild(createChip(input.value));
+        input.value = "";
+        // updateRecipes();
+        search();
+    }
+
+    // live search
+    let typingTimer;
+    var typeInterval = 250;
+    function liveSearch(event) {
+        clearTimeout(typingTimer);
+        typingTimer = setTimeout(search, typeInterval);
+
+        // always run on enter
+        if (event.keyCode == 13) {
+            search();
+        }
+    }
+
+    var recipes;
+    var recipesPerPage = 0;
+    function search() {
+        recipes = updateRecipes(data["recipes"]);
+        recipesPerPage = 0;
+        updateRecipeCount(recipes.length);
+
+        display();
+    }
+
+    function display() {
+        recipesPerPage += 20;
+        // clear recipes
+        document.getElementsByClassName("recipes-grid")[0].innerHTML = "";
+
+        // loop through recipes
+        for (i = 0; i < recipesPerPage; i++) {
+            // create recipe card
+            var recipeCard = createRecipeCard(recipes[i], i);
+            // append to grid
+            document.getElementsByClassName("recipes-grid")[0].appendChild(recipeCard);
+        }
+    }
+
+    function updateRecipes(recipes) {
+        const searchName = document.getElementById("recipe-search").value.toLowerCase();
+        const category   = document.getElementById("category").value;
+        const includedIngredients = Array.from(document.getElementById("included-ingredients").children).map(chip => chip.innerText.toLowerCase());
+        const excludedAllergies   = Array.from(document.getElementById("excluded-allergies").children).map(chip => chip.innerText.toLowerCase());
+
+        const filteredRecipes = recipes.filter(recipe => {
+            const nameMatch = recipe["name"].toLowerCase().includes(searchName);
+            const categoryMatch = !category || category == "All" || recipe["category"] == category;
+
+            const includedIngredientsMatch = includedIngredients.every(ingredient => recipe["ingredients"].includes(ingredient));
+            const excludedAllergiesMatch   = excludedAllergies.every(allergy => !recipe["ingredients"].includes(allergy) || recipe["allergies"].includes(allergy));
+
+            return nameMatch && categoryMatch && includedIngredientsMatch && excludedAllergiesMatch;
+        })
+
+        return filteredRecipes;
+    }
+</script>
