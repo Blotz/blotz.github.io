@@ -1,6 +1,11 @@
 {
     "list": [
         {
+            "name": "Pixelsort CLI",
+            "url": "https://github.com/Blotz/pixelsort-cli",
+            "desc": "A command line tool for sorting pixels in an image"
+        },
+        {
             "name": "Java Raytracer",
             "url": "https://github.com/Blotz/raytracing",
             "desc": "A Recursive raytracer written using java + javafx frontend"
