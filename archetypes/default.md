@@ -4,7 +4,7 @@ date: {{ .Date }}
 tags:
     - Generic
 category:
-    - post
+    - blog
 keywords:
     - foo
     - bar

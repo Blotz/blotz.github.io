@@ -3,14 +3,17 @@ title: "CTF Only For You"
 date: 2023-05-14T11:01:52+01:00
 tags:
     - CTF
+    - onlyforyou
+    - hack the box
 category:
-    - post
-    - medium
+    - CTF
 keywords:
     - only for you
     - onlyforyou
     - hack the box
     - htb
+    - ctf
+    - CTF
 comments: true
 draft: false
 ---
