@@ -17,4 +17,4 @@ Check out my socials:
 - [Discord](https://discordapp.com/users/510539578827079680)
 - [Buy me Coffee](https://www.buymeacoffee.com/blotz)
 
-And don't forget to take a look at [my CV](/about/Ferdinand-Theil-CV.pdf) as well! :smile:
+CV available on request!
