@@ -1,0 +1,73 @@
+baseURL = 'https://www.blotz.dev/'
+languageCode = 'en-us'
+title = 'Ferdinand Theil'
+copyright = "[MIT Ferdinand Theil.](/LICENSE)"
+theme = 'typo'
+
+
+[params]
+# Meta description
+description = "A Tech Blog"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# intro
+homeIntroTitle = 'Hi!'
+homeIntroContent = """
+... todo
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+
+# Lists parameters
+paginationSize = 10
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+[params.breadcrumbs]
+enabled = true
+showCurrentPage = true
+home = "Home"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/blotz"
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/ferdinand-theil-197550245/"
+[[params.social]]
+name = "email"
+url = "f.p.theil@gmail.com"  # no need for "mailto:" in the head
+
+# Main menu pages
+[[params.menu]]
+name = "Home"
+url = "/"
+[[params.menu]]
+name = "About"
+url = "/about"
+[[params.menu]]
+name = "Blog"
+url = "/posts"
+[[params.menu]]
+name = "Tags"
+url = "/tags"
+[[params.menu]]
+name = "Recipe Searcher"
+url = "/recipe"
+[[params.menu]]
+name = "CTF"
+url = "/ctf"
+
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+
