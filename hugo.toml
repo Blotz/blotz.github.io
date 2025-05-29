@@ -1,13 +1,13 @@
 baseURL = 'https://www.blotz.dev/'
 languageCode = 'en-us'
-title = 'Ferdinand Theil'
+title = 'I would be a great employee'
 copyright = "[MIT Ferdinand Theil.](/LICENSE)"
 theme = 'typo'
 
 
 [params]
 # Meta description
-description = "A Tech Blog"
+description = "A website for me to post about random stuff and hopefully help me get a job"
 
 # Appearance settings
 theme = 'auto'
@@ -17,7 +17,12 @@ hideHeader = false
 # intro
 homeIntroTitle = 'Hi!'
 homeIntroContent = """
-... todo
+Not really sure what to introduce here.
+I just sorta post whatever? 
+Really I made this website to improve my chances of getting a job.
+
+If you are a recruiter considering me, HELLO! I have also worked with svelte and other frameworks.
+I can also learn other tech stacks sooo maybe give me an interview?
 """
 
 # Collection to display on home
@@ -26,7 +31,7 @@ homeCollection = 'posts'
 
 # Lists parameters
 paginationSize = 10
-listSummaries = true
+listSummaries = false
 listDateFormat = '2 Jan 2006'
 
 # Breadcrumbs
