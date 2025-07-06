@@ -14,3 +14,5 @@ hugo.linux
 
 # obsidian
 .obsidian/
+
+*.log
