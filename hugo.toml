@@ -1,6 +1,6 @@
 baseURL = 'https://www.blotz.dev/'
 languageCode = 'en-us'
-title = 'I would be a great employee'
+title = 'YACSGW (Yet Another Computer Science Graduate Website)'
 copyright = "[MIT Ferdinand Theil.](/LICENSE)"
 theme = 'typo'
 
