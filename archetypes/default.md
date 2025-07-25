@@ -13,5 +13,5 @@ tags: ["foo", "bar", "baz"]
 showTags: false
 hideBackToTop: false
 # fediverse: "@username@instance.url"
-draft: true
+draft: false
 ---

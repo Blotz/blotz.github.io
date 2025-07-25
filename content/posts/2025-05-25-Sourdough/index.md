@@ -33,7 +33,7 @@ I keep my starter in the fridge. Unless you’re baking more than once a day, yo
 
 ### Feeding
 
-Scoop out most of the jar, leaving just a bit behind. Then fill it with a good amount of flour. Add water until it becomes a thick paste. Stir it up and put it back in the fridge. That’s it—super simple.
+Scoop out most of the jar, leaving just a bit behind. Then fill it with a good amount of flour. Add water until it becomes a thick paste. Stir it up and put it back in the fridge. That’s it, super simple.
 
 {{<figure 
   src="empty_starter.png"
@@ -73,9 +73,9 @@ Want a darker, earthier bread? Use 400g white flour and 200g rye flour instead.
 
 ### Prep
 
-Some recipes suggest making a levain by mixing flour, water, and starter and letting it sit for 30 minutes. I don’t bother. I go straight from fridge to bowl. If your starter’s a bit sluggish, proofing might take longer—but it’ll still work.
+Some recipes suggest making a levain by mixing flour, water, and starter and letting it sit for 30 minutes. I don’t bother. I go straight from fridge to bowl. If your starter’s a bit sluggish, proofing might take longer, but it’ll still work.
 
-Combine all the ingredients in a bowl and mix until you get a shaggy dough. It’ll be sticky and wet—don’t worry.
+Combine all the ingredients in a bowl and mix until you get a shaggy dough. It’ll be sticky and wet, don’t worry.
 
 {{<figure 
   src="ingredients_bowl.png"
@@ -93,7 +93,7 @@ Combine all the ingredients in a bowl and mix until you get a shaggy dough. It�
 
 Let your dough rise for 4–6 hours at room temperature.
 
-Every hour, do a set of stretch and folds. Wet your hands so the dough doesn’t stick. Once it smooths out and passes the windowpane test, stop stretching and folding—just let it rise.
+Every hour, do a set of stretch and folds. Wet your hands so the dough doesn’t stick. Once it smooths out and passes the windowpane test, stop stretching and folding, just let it rise.
 
 {{<rawhtml>}}
 <video src="/posts/2025-05-25-sourdough/stretch_and_fold.mp4" height="300" controls>
@@ -114,7 +114,7 @@ When it’s ready, move on.
 
 ### Shaping and Overnight Fermentation
 
-This step is all about building surface tension. There’s not much to say—pick a method that works for you. [Here’s one](https://youtu.be/h7eqwYLv2tI) I like. You can also watch what I do in the video below. Like with the poke test, this part gets easier with practice.
+This step is all about building surface tension. There’s not much to say, pick a method that works for you. [Here’s one](https://youtu.be/h7eqwYLv2tI) I like. You can also watch what I do in the video below. Like with the poke test, this part gets easier with practice.
 
 {{<rawhtml>}}
 <video src="/posts/2025-05-25-sourdough/shaping.mp4" height="300" controls>
