@@ -5,12 +5,12 @@ author: "Ferdinand Theil"
 date: 2025-05-25T13:54:15+01:00
 summary: "A low-effort, high-reward guide to baking sourdough bread at home."
 description: "An easygoing, no-fuss sourdough recipe that doesn't require obsessive attention. Perfect for casual bakers who want reliably tasty results."
-toc: true
-readTime: true
+toc: false
+readTime: false
 autonumber: true
 math: true
-tags: ["recipes", "sourdough"]
-showTags: false
+tags: ["recipes", "bread", "sourdough"]
+showTags: true
 hideBackToTop: false
 # fediverse: "@username@instance.url"
 draft: false
