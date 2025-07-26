@@ -61,6 +61,9 @@ url = "/about"
 name = "Blog"
 url = "/posts"
 [[params.menu]]
+name = "Photos"
+url = "/photos"
+[[params.menu]]
 name = "Tags"
 url = "/tags"
 [[params.menu]]
