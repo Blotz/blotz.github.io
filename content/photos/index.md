@@ -1,10 +1,21 @@
-I don't post-process any of my images. 
+---
+title: "Photos"
+summary: "My gallery of some of my favourite pictures i have taken so far!"
+description: "My gallery of some of my favourite pictures i have taken so far!"
+tags: ["photos", "film"]
+showTags: true
+---
+
+I'm a beginner photographer and am learning every day.
+I shoot mostly film, on either point and shoot or SLR.
+I have a Fujica STX-1 and a Cannon AF35M II.
+
 
 ## Manchester
 
 {{<image-gallery gallery_dir="/photos/manchester">}}
 
-A small collection of some of the photos I took while in Manchester.
+A small collection of some of the photos I took while living in Manchester during 2025.
 
 ### Peak District
 
