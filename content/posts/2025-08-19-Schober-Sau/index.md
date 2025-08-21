@@ -23,14 +23,14 @@ regular roast
   src="schopf_top.jpg"
   alt=""
   caption=""
-  width=200
+  width=480
 >}}
 
 {{<figure 
   src="schopf_side.jpg"
   alt=""
   caption=""
-  width=200
+  width=480
 >}}
 
 filled roast
@@ -39,14 +39,14 @@ filled roast
   src="brustl_top.jpg"
   alt=""
   caption=""
-  width=200
+  width=480
 >}}
 
 {{<figure 
   src="brustl_side.jpg"
   alt=""
   caption=""
-  width=200
+  width=480
 >}}
 
 score the skin
@@ -55,7 +55,7 @@ score the skin
   src="scoring.jpg"
   alt=""
   caption=""
-  width=200
+  width=480
 >}}
 
 season with salt & cumin. 
@@ -65,7 +65,7 @@ season with salt & cumin.
   src="seasoning.jpg"
   alt=""
   caption=""
-  width=200
+  width=480
 >}}
 
 **for the filled sau**
@@ -74,19 +74,19 @@ season with salt & cumin.
   src="filling_sau_1.jpg"
   alt=""
   caption=""
-  width=200
+  width=480
 >}}
 {{<figure 
   src="filling_sau_2.jpg"
   alt=""
   caption=""
-  width=200
+  width=480
 >}}
 {{<figure 
   src="preventing_spilling.jpg"
   alt=""
   caption=""
-  width=200
+  width=480
 >}}
 
 add onions & garlic peals
@@ -96,7 +96,7 @@ add 400g butter.
   src="prebake.jpg"
   alt=""
   caption=""
-  width=200
+  width=480
 >}}
 
 add 1/2 l boiling water & bake.

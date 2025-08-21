@@ -28,7 +28,7 @@ I keep my starter in the fridge. Unless youâ€™re baking more than once a day, yo
   src="happy_and_healthy_starter.png"
   alt="Happy and healthy sourdough starter"
   caption="happy and healthy starter"
-  width=200
+  width=480
 >}}
 
 ### Feeding
@@ -38,13 +38,13 @@ Scoop out most of the jar, leaving just a bit behind. Then fill it with a good a
 {{<figure 
   src="empty_starter.png"
   alt="Jar with starter mostly emptied"
-  width=200
+  width=480
 >}}
 
 {{<figure 
   src="filled_with_flour_starter.png"
   alt="Jar refilled with flour and water"
-  width=200
+  width=480
 >}}
 
 
@@ -80,13 +80,13 @@ Combine all the ingredients in a bowl and mix until you get a shaggy dough. Itâ€
 {{<figure 
   src="ingredients_bowl.png"
   alt="Bowl with raw ingredients"
-  width=200
+  width=480
 >}}
 
 {{<figure 
   src="shaggy_dough.png"
   alt="Shaggy dough"
-  width=200
+  width=480
 >}}
 
 ### Autolyse / Proof
@@ -133,7 +133,7 @@ Carefully turn the dough out onto baking paper. Score it deeply from end to end 
 {{<figure 
   src="scored_bread.png"
   alt="scored bread"
-  width=200
+  width=480
 >}}
 
 Bake:
@@ -143,13 +143,13 @@ Bake:
 {{<figure 
   src="halfway_bread.png"
   alt="halfway done bread"
-  width=200
+  width=480
 >}}
 
 {{<figure 
   src="bread.png"
   alt="bread"
-  width=200
+  width=480
 >}}
 
 Done!

@@ -20,7 +20,7 @@ draft: false
   src="salzstangen.jpg"
   alt="A picture of freshly made salzstangen"
   caption="Fresh Salzstangen made at hochschoberhutte"
-  width=200
+  width=480
 >}}
 
 Ironically, I've never actually tried store bought salzstangen.
