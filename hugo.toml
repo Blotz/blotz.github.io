@@ -79,3 +79,7 @@ url = "/ctf"
 [markup.highlight]
 style = 'emacs'
 
+# Github pages thing
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
