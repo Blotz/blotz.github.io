@@ -2,13 +2,17 @@
 title: "Photos"
 summary: "My gallery of some of my favourite pictures i have taken so far!"
 description: "My gallery of some of my favourite pictures i have taken so far!"
-tags: ["photos", "film"]
+tags: ["photos", "film", "gallery"]
 showTags: true
 ---
 
-I'm a beginner photographer and am learning every day.
+I'm a beginner photographer, and am currently in love with the slow and monotonous process of film.
 I shoot mostly film, on either point and shoot or SLR.
-I have a Fujica STX-1 and a Cannon AF35M II.
+> I have a Fujica STX-1 and a Cannon AF35M II.
+
+These are some photos that came out which I'm particularly happy with.
+I particularly like the photos which come out damaged in some way.
+They feel more real and tactile.
 
 
 ## Manchester
