@@ -17,3 +17,18 @@ draft: true
 ---
 
 not finished. todo.
+
+needs another try. it was cooked too hot and the inside was raw.
+
+roll it out thinner.
+
+- 250g flour
+- 250g topfen
+- 100g apple mousse
+- 150g butter
+- egg?
+
+egg wash
+& THICK layer of mousse between layers
+
+bake at 160c for 20min
