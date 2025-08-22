@@ -8,6 +8,7 @@
 - Fladenbrot
 - Ramson (Pull-Apart Bread)
 - [Apfelmus Hornchen](https://emmikochteinfach.de/mini-quark-apfelmus-hoernchen/)
+- croissants
 
 ### Bread filling ideas
 
@@ -35,6 +36,45 @@ Then when you roll the croissants out into triangles, you spread apple mousse be
 This stops the layers from sticking together.
 
 bake at 160c for 20min.
+
+### Croissants
+
+- 1kg flour
+- 420g water
+- 50g egg
+- 45g yeast
+- 18g salt
+- 100g sugar
+- 20g honey
+
+kneed together
+
+- 70g soft butter
+
+kneed till combined.
+let rise 1 hr.
+roll out 2:1.
+5min freezer. 15min fridge.
+
+- 400g butter
+
+Flattern out between parchment 1:1 (1cm) 
+
+initial fold with butter in center.
+slowly roll flat. dont break butter.
+
+book fold.
+30min fridge.
+
+single fold.
+
+cut & form.
+let rise 2hrs.
+
+- 2 egg yoke
+- cream
+
+180c 15min bake
 
 ## Insta
 
