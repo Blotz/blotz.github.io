@@ -52,11 +52,19 @@ filled roast
 score the skin
 
 {{<figure 
-  src="scoring.jpg"
+  src="scoring_1.jpg"
   alt=""
   caption=""
   width=480
 >}}
+
+{{<figure 
+  src="scoring_2.jpg"
+  alt=""
+  caption=""
+  width=480
+>}}
+
 
 season with salt & cumin. 
 - season with salt overnight for crispier skin
@@ -104,3 +112,5 @@ add 1/2 l boiling water & bake.
 after 1hr/when the water is almost gone, add veg stock.
 
 bake for 2/3 hours.
+
+halfway. temporarily rotate the roast so the buttom gets nicely baked too.
