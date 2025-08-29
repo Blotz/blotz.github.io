@@ -18,6 +18,13 @@ draft: false
 
 Okay, this is _my_ sourdough recipe. It isn't as precise as others because I don’t spend all my time babying each loaf. Luckily, sourdough mostly makes itself, and it’s pretty hard to completely ruin bread.
 
+{{<figure
+  src="final_bread.jpg"
+  alt="A freshly baked sourdough loaf sitting on a wooden cutting board"
+  caption="Freshly made sourdough loaf!"
+  width=480
+>}}
+
 ## Starter
 
 There are hundreds of guides online on how to care for your starter, so I won’t go into massive detail here.

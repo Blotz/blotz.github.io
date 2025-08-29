@@ -21,7 +21,13 @@ If someone else is reading this, Hi! feel free to message me and ask for more de
 
 It's the strudel I learned while working in Hochschoberhutte, Austria.
 It would sell out each day making 76.80 euros.
-Maybe I'll get round to adding pictures in the future!
+
+{{<figure
+  src="strudel.jpg"
+  alt="freshly made strudel sitting on a plate"
+  caption="freshly made strudel"
+  width=480
+>}}
 
 ## Ingredients
 
