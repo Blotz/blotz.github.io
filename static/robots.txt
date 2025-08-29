@@ -20,7 +20,7 @@
 
 
 User-agent: *
-
+Allow: /
 Sitemap: https://www.ftheil.com/sitemap.xml
 
 #              ________
