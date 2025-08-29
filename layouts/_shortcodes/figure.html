@@ -61,14 +61,18 @@ Changes:
             sizes="(min-width: 35em) 1200px, 100vw"
             {{/* only srcset images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}  
             srcset='
+
             {{ range $sizes }}
                 {{/* explicit MediaType.SubType to support our webp work-around without affecting non-webp use */}}
                 {{ if ge $src.Width . }}{{ ($srcIP.Resize (printf "%sx %s" . $src.MediaType.SubType)).Permalink }} {{ (printf "%sw" .) }},{{ end }}
             {{ end }}'
 
+
             {{/* when no support for srcset (old browsers, RSS), we load small (800px) */}}
             {{/* if image smaller than 800, then load the image itself */}}
-            {{ if ge $src.Width "800" }}src="{{ ($srcIP.Resize (printf "800x %s" $src.MediaType.SubType)).Permalink }}"
+            {{ if ge $src.Width "800" }}
+            src="{{ ($srcIP.Resize (printf "800x %s" $src.MediaType.SubType)).Permalink }}"
+
             {{ else }}src="{{ $src.Permalink }}"
             {{ end }}
 
@@ -76,6 +80,7 @@ Changes:
             {{/* fall back to stock hugo behaviour when image is not available in bundle */}}
             src="{{ .Get "src" }}"
         {{ end }}
+        
 
         {{- if or (.Get "alt") (.Get "caption") }}
             alt="{{ with .Get "alt" }}{{ . }}{{ else }}{{ .Get "caption" | markdownify| plainify }}{{ end }}"
