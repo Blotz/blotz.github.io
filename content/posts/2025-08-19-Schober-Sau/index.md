@@ -13,43 +13,26 @@ tags: ["foo", "bar", "baz"]
 showTags: false
 hideBackToTop: false
 # fediverse: "@username@instance.url"
-draft: true
+draft: false
 ---
 
-cut of meat
-regular roast
+## Day Before
 
-{{<figure 
-  src="schopf_top.jpg"
-  alt=""
-  caption=""
-  width=480
->}}
+### Veg Stock
 
-{{<figure 
-  src="schopf_side.jpg"
-  alt=""
-  caption=""
-  width=480
->}}
+Finely dice ingredients and prepare a large pot for tomorrow.
 
-filled roast
+- onion
+- carrot
+- garlic
+- parsley
+- veg stock
 
-{{<figure 
-  src="brustl_top.jpg"
-  alt=""
-  caption=""
-  width=480
->}}
+Save all onion and garlic peels.
 
-{{<figure 
-  src="brustl_side.jpg"
-  alt=""
-  caption=""
-  width=480
->}}
+### Pork
 
-score the skin
+1. Score the skin in a checkerboard pattern.
 
 {{<figure 
   src="scoring_1.jpg"
@@ -65,9 +48,10 @@ score the skin
   width=480
 >}}
 
+2. Cut a pocket for the filling.
 
-season with salt & cumin. 
-- season with salt overnight for crispier skin
+3. Rub with salt & caraway and leave overnight.
+   The salt will draw moisture out of the skin resulting in a crispier roast.
 
 {{<figure 
   src="seasoning.jpg"
@@ -76,7 +60,21 @@ season with salt & cumin.
   width=480
 >}}
 
-**for the filled sau**
+Leave to rest overnight.
+
+## Morning (8am)
+
+### Veg Stock
+
+Add 2L water and boil stock
+
+### Semmelknodle
+
+TBD
+
+### Pork
+
+1. Fill the pocket with Semmelknodle filling
 
 {{<figure 
   src="filling_sau_1.jpg"
@@ -90,6 +88,9 @@ season with salt & cumin.
   caption=""
   width=480
 >}}
+
+2. Pin the edges closed to prevent spilling
+
 {{<figure 
   src="preventing_spilling.jpg"
   alt=""
@@ -97,8 +98,7 @@ season with salt & cumin.
   width=480
 >}}
 
-add onions & garlic peals
-add 400g butter.
+3. Add the saved garlic & onion peels, and 400g butter to a tray with the pork.
 
 {{<figure
   src="prebake.jpg"
@@ -107,10 +107,14 @@ add 400g butter.
   width=480
 >}}
 
-add 1/2 l boiling water & bake.
+## Bake (9am)
 
-after 1hr/when the water is almost gone, add veg stock.
+1. Preheat oven to 200c
 
-bake for 2/3 hours.
+2. add 500ml boiling water to the tray and bake
 
-halfway. temporarily rotate the roast so the buttom gets nicely baked too.
+3. After 30 minutes, reduce to 170c and top up with veg stock. Roast for 3 hours.
+
+4. Keep topping up with veg stock every 30 minutes.
+
+5. Halfway through the bake, temporarily flip the roast, so the bottom gets nicely baked too.
