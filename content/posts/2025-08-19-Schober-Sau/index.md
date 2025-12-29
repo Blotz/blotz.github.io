@@ -98,7 +98,7 @@ TBD
   width=480
 >}}
 
-3. Add the saved garlic & onion peels, and 400g butter to a tray with the pork.
+3. Add the saved garlic & onion peels, and 200g butter to a tray with the pork.
 
 {{<figure
   src="prebake.jpg"
@@ -111,10 +111,12 @@ TBD
 
 1. Preheat oven to 200c
 
-2. add 500ml boiling water to the tray and bake
+2. add 100ml boiling water to the tray and bake (enough to cover bottom of pan)
 
 3. After 30 minutes, reduce to 170c and top up with veg stock. Roast for 3 hours.
 
 4. Keep topping up with veg stock every 30 minutes.
 
 5. Halfway through the bake, temporarily flip the roast, so the bottom gets nicely baked too.
+
+It should never stew in the sauce, keep the liquid nice and low
